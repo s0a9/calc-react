@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-gray {
+  @apply p-3 m-2 text-gray-400 hover:bg-gradient-to-r hover:text-gray-200 hover:from-sky-400 hover:to-indigo-600 bg-gray-600 shadow outline-none;
+}
+
+.btn-white {
+  @apply p-3 m-2 bg-gray-600 hover:bg-gradient-to-r hover:from-sky-400 hover:to-indigo-600 shadow outline-none;
+}
